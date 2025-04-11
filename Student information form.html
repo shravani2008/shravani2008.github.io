@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information Form - Government Polytechnic Pune</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .form-container {
+      background-color: white;
+      padding: 30px;
+      max-width: 600px;
+      margin: 30px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #007BFF;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Student Information Form</h1>
+    <p>Government Polytechnic Pune</p>
+  </header>
+
+  <div class="form-container">
+    <h2>Fill in your Details</h2>
+    <form id="studentForm">
+      <!-- Personal Details Section -->
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+
+      <label for="enrollmentNo">Enrollment Number:</label>
+      <input type="text" id="enrollmentNo" name="enrollmentNo" required placeholder="Enter your enrollment number">
+
+      <label for="department">Department:</label>
+      <select id="department" name="department" required>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Electrical">Electrical</option>
+        <option value="Civil">Civil</option>
+        <option value="Information Technology">Information Technology</option>
+      </select>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender:</label
